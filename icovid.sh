@@ -32,6 +32,7 @@ wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/p
 cd ${HOME}/datagov/ICOVID/dimension1/carga/nacional/;
 rm 'confirmados nacional.csv';
 wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto53/confirmados_nacional.csv';
+mv confirmados_nacional.csv "confirmados nacional.csv";
 
 cd ${HOME}/datagov/ICOVID/dimension1/carga/regional/;
 rm 'carga.regional.ajustada.csv';
@@ -60,34 +61,42 @@ wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/p
 cd ${HOME}/datagov/ICOVID/dimension2/positividad/nacional/;
 rm 'Positividad nacional.csv';
 wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto55/Positividad_nacional.csv';
+mv Positividad_nacional.csv "Positividad nacional.csv";
 
 cd ${HOME}/datagov/ICOVID/dimension2/positividad/regional/;
 rm 'Positividad por region.csv';
 wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto55/Positividad_por_region.csv';
+mv Positividad_por_region.csv "Positividad por region.csv";
 
 cd ${HOME}/datagov/ICOVID/dimension2/positividad/provincial/;
 rm 'Positividad por provincia.csv';
 wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto55/Positividad_por_provincia.csv';
+mv Positividad_por_provincia.csv "Positividad por provincia.csv";
 
 cd ${HOME}/datagov/ICOVID/dimension2/positividad/comunal/;
 rm 'Positividad por comuna.csv';
 wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto55/Positividad_por_comuna.csv';
+mv Positividad_por_comuna.csv "Positividad por comuna.csv";
 
 cd ${HOME}/datagov/ICOVID/dimension2/tasatest/nacional/;
 rm 'tasa test semanal nacional.csv';
 wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto68/tasa_test_semanal_nacional.csv';
+mv tasa_test_semanal_nacional.csv "tasa test semanal nacional.csv";
 
 cd ${HOME}/datagov/ICOVID/dimension2/tasatest/regional/;
 rm 'tasa test semanal regional.csv';
 wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto68/tasa_test_semanal_regional.csv';
+mv tasa_test_semanal_regional.csv "tasa test semanal regional.csv";
 
 cd ${HOME}/datagov/ICOVID/dimension2/tasatest/provincial/;
 rm 'tasa test semanal provincial.csv';
 wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto68/tasa_test_semanal_provincial.csv';
+mv tasa_test_semanal_provincial.csv "tasa test semanal provincial.csv";
 
 cd ${HOME}/datagov/ICOVID/dimension2/tasatest/comunal/;
 rm 'tasa test semanal comunal.csv';
 wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto68/tasa_test_semanal_comunal.csv';
+mv tasa_test_semanal_comunal.csv "tasa test semanal comunal.csv";
 
 cd ${HOME}/datagov/ICOVID/dimension3/notificacion/Nacional/;
 rm 'not48.nacional.csv';
