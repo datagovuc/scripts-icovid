@@ -9,6 +9,7 @@ ROOTPATH2="${HOME}/datagov";
 echo "Copiando archivo producto 24"
 
 cd ${PATHDOC}/ICOVID;
+rm 'CamasHospital_Diario_std.csv';
 wget 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto24/CamasHospital_Diario_std.csv';
 
 echo "[$(date +"%F %T")] Git pull al repo de ICOVID"
